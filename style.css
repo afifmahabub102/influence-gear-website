@@ -17,6 +17,22 @@
 
 }
 
+.pri-button{
+  background-color: rgba(224, 44, 109, 1);
+  border-radius: 41px;
+  padding: 10px 24px;
+  border: none; 
+}
+
+.span{
+  color: rgba(255, 255, 255, 1);
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.fa-arrow-right{
+  color: aliceblue; 
+}
 
 
 
@@ -24,7 +40,9 @@
 /* header styles */
 /* nav-styles */
 
-.nav-bar{
+
+
+.nav-bar , header{
   max-width: 1200px;
   margin: 0 auto;
   justify-content: space-between; 
@@ -50,6 +68,61 @@ nav a{
   font-weight: 600;
   font-size: 1rem;
 }
+
+
+/* header content and image related style */
+
+.header{
+   gap: 130px;
+   margin-top: 50px;
+   /* background-image: url(./images/Circle\ design.svg);
+   background-position: right bottom;   
+   background-repeat: no-repeat; */
+   max-width: 1167px;
+   
+}
+
+.head-content-title{
+   font-weight: 700;
+   font-size: 3.25rem;
+   margin-bottom: 16px;
+}
+
+.head-content-discription{
+   font-weight: 600;
+   font-size: 1rem;
+   margin-bottom: 16px;
+   
+}
+
+header{
+   background-image: url(./images/Circle\ design.svg);
+   background-position: right bottom;   
+   background-repeat: no-repeat;
+   margin-top: 50px;
+   margin-bottom: 70px;
+}
+
+/* sponsper related styles */
+
+.logos{
+  max-width: 1110px;
+  margin: 0 auto;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  display: grid;
+  grid-template-columns: repeat(7 , 1fr);
+  gap: 60px;
+  padding: 37px 50px 35px 50px;
+  justify-items: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+
+
+
+
+
 
 
 
