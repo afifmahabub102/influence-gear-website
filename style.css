@@ -5,3 +5,51 @@
   font-weight: 400;
   font-style: normal;
 }
+
+/* Shared Styles */
+
+.dis-flex{
+  display: flex;     
+}
+
+.dark-3A{
+  color: rgba(58, 58, 58, 1);
+
+}
+
+
+
+
+
+/* header styles */
+/* nav-styles */
+
+.nav-bar{
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: space-between; 
+  align-items: center; 
+}
+
+nav li{
+  list-style: none;
+  margin-right: 34px;
+}
+
+nav a{
+  text-decoration: none;
+  color: rgba(58, 58, 58, 1);
+}
+
+.nav-title{
+  font-weight: 700;
+  font-size: 1.5rem; 
+}
+
+.nav-item{ 
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+
+
