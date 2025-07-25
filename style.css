@@ -125,7 +125,7 @@ header{
   display: grid;
   grid-template-columns: repeat(7 , 1fr);
   gap: 60px;
-  padding: 37px 45px 35px 45px;
+  padding: 37px 50px 35px 50px;
   justify-items: center;
   align-items: center;
   margin-bottom: 100px;
@@ -155,6 +155,7 @@ header{
    } 
 
    .nav-bar ul{
+       gap: 5px;
        text-align: center;
    }
 
