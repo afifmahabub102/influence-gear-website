@@ -180,6 +180,28 @@ header{
 }   
 
 
+@media screen and (min-width:576px) and (max-width:992px){
+    
+    .header{
+       flex-direction: column-reverse;
+    }
+
+    .header-content{
+       text-align: center;
+    }
+ 
+    .header-image img{
+       width: 100%;
+    } 
+
+    .logos{
+       grid-template-columns: repeat(3, 1fr);
+       padding: 37px 0px 35px 0px;
+       box-shadow: none;
+    }
+}
+
+
 
 
 
