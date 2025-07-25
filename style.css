@@ -220,6 +220,46 @@ header{
   margin-left: 4px;
 }
 
+/* featured-products related styles */
+
+.featured-products{
+  max-width: 1120px;
+  margin: 0 auto;
+  gap: 100px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.fea-title{
+  font-weight: 700;
+  font-size: 2.375rem;
+  color: rgba(10, 8, 38, 1);
+  margin-top: 0px;
+  margin-bottom: 16px;
+}
+
+.fea-info{
+  font-weight: 700;
+  font-size: 1rem;
+  color: rgba(108, 108, 108, 1);
+  margin-bottom: 16px;
+}
+
+.third-button{
+  background-color: rgba(224, 44, 109, 1);
+  padding: 10px 24px;
+  border: none;
+   
+}
+
+.join{
+  color: rgba(255, 255, 255, 1);
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+
 
 
 
@@ -277,7 +317,25 @@ header{
    }
 
    .sec-button{
-       margin-left: 70%; 
+      margin-left: 70%; 
+   }
+
+   .featured-products{
+      flex-direction: column-reverse;
+      padding: 0 15px;
+      gap: 30px;
+   }
+
+   .featured-products img{
+      width: 100%; 
+   }
+
+   .fea-content{
+      text-align: center;
+   }
+
+   .third-button{
+      margin-top: 15px;
    }
 
 }   
@@ -286,34 +344,52 @@ header{
 @media screen and (min-width:576px) and (max-width:992px){
     
     .header{
-       flex-direction: column-reverse;
+      flex-direction: column-reverse;
     }
 
     .header-content{
-       text-align: center;
+      text-align: center;
     }
  
     .header-image img{
-       width: 100%;
+      width: 100%;
     } 
 
     .logos{
-       grid-template-columns: repeat(3, 1fr);
-       padding: 37px 0px 35px 0px;
-       box-shadow: none;
+      grid-template-columns: repeat(3, 1fr);
+      padding: 37px 0px 35px 0px;
+      box-shadow: none;
     }
 
     .collection-container{
-       grid-template-columns: repeat(2 , 1fr);
+      grid-template-columns: repeat(2 , 1fr);
     }
 
     .card img{
-       width: 100%;
+      width: 100%;
     }
 
-     .sec-button{
-       margin-left: 0;
-     }
+    .sec-button{
+      margin-left: 0;
+    }
+
+    .featured-products{
+      flex-direction: column-reverse;
+      padding: 0 15px;
+      gap: 30px;
+    }
+
+    .featured-products img{
+      width: 100%; 
+    }
+
+    .fea-content{
+      text-align: center;
+    }
+
+    .third-button{
+      margin-top: 15px;
+    }
 
 }
 
